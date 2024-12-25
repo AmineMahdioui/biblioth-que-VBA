@@ -7,7 +7,8 @@ Ce projet implique le développement et la maintenance d'une application VBA. L'
 ## À Faire
 
 - [ ] Corriger `Jour_Disponible` dans le formulaire `livraison`
-
+- [ ] Formulaire `commande` : Ajouter une userform
+- [ ] 
 ## Base de Données
 
 
@@ -33,6 +34,7 @@ Ce projet implique le développement et la maintenance d'une application VBA. L'
 |---------------------|---------------|---------------------------------------------------|
 | `ID_Livre`          | Texte         | Clé primaire, identifiant unique (ex : ISBN)      |
 | `Titre_Livre`       | Texte         | Titre du livre                                   |
+`Prix` | Numérique | Prix du livre
 | `Possede`              | Booléen       | Indique si le livre est en possession |
 | `ID_Collection`     | Numérique     | Clé étrangère de la table COLLECTIONS            |
 | `ID_Editeur`        | Numérique     | Clé étrangère de la table EDITEURS               |
@@ -53,7 +55,6 @@ Ce projet implique le développement et la maintenance d'une application VBA. L'
 | Nom de colonne       | Type          | Description                                       |
 |----------------------|---------------|---------------------------------------------------|
 | `ID_Commande`        | NuméroAuto    | Clé primaire, identifiant des commandes          |
-| `ID_Client`          | Numérique     | Clé étrangère de la table CLIENTS                |
 | `Date_Commande`      | Date          | Date de la commande                              |
 | `Total_HT`           | Numérique     | Montant total hors taxes                         |
 | `TVA`                | Numérique     | Montant de la TVA                                |
