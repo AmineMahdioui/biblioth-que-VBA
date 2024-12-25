@@ -1,4 +1,11 @@
 # ReadMe
+nice now there is also a main form that has the 7 buttons :
+Ajout_Editeur
+Ajout_Livre_Reference
+Ajout_Collection
+Ajout_Livre_Possede
+Ajout_Point_de_Livraison
+Commande
 
 ## Aperçu du Projet
 
@@ -7,8 +14,11 @@ Ce projet implique le développement et la maintenance d'une application VBA. L'
 ## À Faire
 
 - [ ] Corriger `Jour_Disponible` dans le formulaire `livraison`
-- [ ] Formulaire `commande` : Ajouter une userform
-- [ ] 
+- [ ] Formulaire `Commande` : Ajouter une userform
+- [ ] Formulaire `Commande` : Ajouter une userform
+- [ ] Fix validation case for LivreRefForm : get collection and editeur ids when non exists (should ask to create? or keep as 0)
+- [ ]  
+
 ## Base de Données
 
 
