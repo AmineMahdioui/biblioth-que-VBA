@@ -14,10 +14,9 @@ Ce projet implique le développement et la maintenance d'une application VBA. L'
 ## À Faire
 
 - [ ] Corriger `Jour_Disponible` dans le formulaire `livraison`
-- [ ] Formulaire `Commande` : Ajouter une userform
-- [ ] Formulaire `Commande` : Ajouter une userform
 - [ ] Fix validation case for LivreRefForm : get collection and editeur ids when non exists (should ask to create? or keep as 0)
-- [ ]  
+# working on 
+- [ ]  userform `Commande` : fix the code to fill the command sheets
 
 ## Base de Données
 
