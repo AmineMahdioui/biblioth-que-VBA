@@ -15,6 +15,7 @@ Ce projet implique le développement et la maintenance d'une application VBA. L'
 
 - [ ] Corriger `Jour_Disponible` dans le formulaire `livraison`
 - [ ] Fix validation case for LivreRefForm : get collection and editeur ids when non exists (should ask to create? or keep as 0)
+- [ ] make jour dispo a dorp list of days
 # working on 
 - [ ]  userform `Commande` : fix the code to fill the command sheets
 
