@@ -56,7 +56,7 @@ Ce projet implique le développement et la maintenance d'une application VBA. L'
 | `ID_Point`           | NuméroAuto    | Clé primaire, identifiant des points de livraison |
 | `Nom_Point`          | Texte         | Nom ou description du point de livraison         |
 | `Adresse`            | Texte         | Adresse complète du point de livraison           |
-| `Jour_Disponible`    | Texte         | Jours où le point est opérationnel               |
+| `Jour_Disponible`    | Texte         | Jours de la semaine où le point est opérationnel |
 
 ---
 
